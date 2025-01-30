@@ -17,8 +17,7 @@ for remaining_time in range(timer_duration, 0, -1):
 # Send a notification after the timer completes
 send_push(
     title="Timer Complete",
-    body="The specified duration has elapsed.",
-    icon="path_to_your_icon.png",  # Optional
+    body="The specified duration has elapsed."
 )
 
 # Inform the user that the timer has completed
